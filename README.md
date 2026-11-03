@@ -1,5 +1,8 @@
 # pip Index Boundary Audit
 
+<p align="center"><img src="assets/logo-full.svg" alt="Official AREA ZERO brand logo" width="240"></p>
+<p align="center"><img src="assets/hero.svg" alt="Original pip-index-boundary-audit project banner" width="100%"></p>
+
 **Review dependency origin boundaries before `pip install`.** A portable, fully offline Agent Skill that inspects requirements/index configuration *inside explicitly provided files* without resolving packages or leaking credentials.
 
 [![CI](https://github.com/Kanompung1988/pip-index-boundary-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/Kanompung1988/pip-index-boundary-audit/actions/workflows/ci.yml) · [Agent Skills specification](https://agentskills.io/specification) · MIT
@@ -32,3 +35,6 @@ This is not a full pip parser/resolver and does not inspect pip.conf, environmen
 ## Contributing and license
 
 Open an issue with a redacted requirements fixture; add tests for parser changes and preserve the no-credential-output rule. CI tests Python 3.10/3.12. MIT License (see `LICENSE`). Author: AREA ZERO, 2026. Not affiliated with PyPA.
+
+
+> Brand note: the original AREA ZERO logo is an owner-provided trademark asset and is not licensed for third-party branding under the MIT software license. The original illustrative hero SVG is part of the project documentation.
